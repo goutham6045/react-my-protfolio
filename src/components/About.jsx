@@ -13,29 +13,25 @@ const About = () => {
           </p>
       </div>
 
-      <p className="text-xl mt-20">
-      Hi there! My name is Alex. I was born and raised in 
-      New York City, surrounded by the bustling energy of 
-      the urban landscape. I've always been passionate 
+      <p className="text-xl mt-10 text-justify font-semibold leading-relaxed">
+      Hi there! My name is Goutham. I was born and raised in 
+      India. I've always been passionate 
       about technology and how it shapes our world. 
       From a young age, I found myself taking apart 
       old electronics just to see how they worked. This 
       curiosity led me to pursue a degree in Computer 
-      Science, and I'm now working as a software engineer 
-      at a tech startup.
+      Science. Currently I am pursuing masters in Computer Scinece at University of Florida (UF). 
+      Additionally, I am currently working as a Graduate Student Assistant as a Web developer at UF.
       </p>
 
     <br />   
-    <p className="text-xl">
-      When I'm not coding, I love exploring the city's 
-      diverse culinary scene – you can often find me trying 
-      out new restaurants or attempting to recreate exotic 
-      dishes at home. Traveling is another one of my 
-      passions; I've been fortunate enough to visit several 
-      countries across Europe and Asia, each time immersing 
-      myself in different cultures and making lifelong 
-      memories.
-      </p>   
+    <h2 className="text-xl mt-10 font-bold">Interests Beyond Coding</h2>
+    <ul className="text-xl mt-4  list-disc pl-6">
+        <li>Travelling</li>
+        <li>Exploring new restuarants</li>
+        <li>Playing Games</li>
+    </ul>
+
     </div>
   </div>
   );

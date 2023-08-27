@@ -1,5 +1,5 @@
 import React from 'react'
-import HeroImage from '../assets/heroImage.png';
+import HeroImage from '../assets/HeroImage_1_572x760.png';
 import { MdOutlineKeyboardArrowRight } from 'react-icons/md';
 import {Link} from "react-scroll";
 
@@ -14,10 +14,15 @@ const Home = () => {
                 <h2 className="text-4xl sm:text-7xl font-bold text-white">
                     I'm a Full Stack Developer
                 </h2>
-                <p className="text-gray-500 py-4 max-w-md">
-                    Write about yourself sdbsjdh bdshbdjsa
-                    dhsabdjbsdjsab sdbhsabsjd hbjdsfbdjsfbdsjfbdjb sfbjdsfbdj
-                    dvsnfvjfvsjhfvsjhfdjsvfds
+                <p className="text-gray-500 py-4 max-w-md text-justify font-semibold leading-relaxed" >
+                Hello, I'm Goutham Kumar Mekala, a passionate full stack developer. 
+                With a knack for both front-end and back-end technologies,
+                 I specialize in crafting seamless digital experiences. I'm dedicated to transforming 
+                 innovative concepts into functional applications. My toolbox includes React, Node.js, Angular, 
+                 JavaScript, ASP.NET MVC, HTML, CSS and more. I'm also well-versed in Azure cloud technology, leveraging its capabilities 
+                 to build scalable and reliable solutions. Collaboration fuels my creativity, and I'm 
+                 always excited to learn and adapt in the ever-changing tech landscape. 
+                Let's connect and bring ideas to life!
                 </p>
 
                 <div>
